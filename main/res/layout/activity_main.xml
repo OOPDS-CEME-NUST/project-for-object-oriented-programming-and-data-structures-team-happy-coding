@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/app"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="19"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <ImageView
+            android:id="@+id/logo_Eme"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/nust_logo"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5">
+
+        </View>
+        <ImageView
+            android:id="@+id/logo_Nust"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ceme_logo"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/logo_app"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/titan" />
+
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/button"
+        android:layout_marginTop="350dp"
+        android:text="Camera"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/data_btn"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:background="@color/button"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Data"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/about_btn"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:background="@color/button"
+        android:textStyle="italic"
+        android:text="About Us"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+</RelativeLayout>

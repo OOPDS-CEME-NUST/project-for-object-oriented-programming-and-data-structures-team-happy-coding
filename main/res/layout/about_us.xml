@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/app"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Asalam o Alaikum/Hi!
+We are the students of Mechatronics Engineering, studying in NUST, Islamabad. We made this android application as a project of OOP in Java.
+It is a security application which can be installed in companies, organizations, academic institutes, hospitals, border, parking areas, etc to automate and monitor the flow of registered vehicles.Only registered vehicles will be allowed to enter/leave."
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/back3_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@color/button"
+        android:text="Back"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
